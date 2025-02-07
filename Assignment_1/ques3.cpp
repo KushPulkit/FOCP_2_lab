@@ -62,7 +62,7 @@ cout<<wrd<<endl;
 
 int main(){
 string a=input();
-// palin();
+palin();
 freq();
-// vowel();
+vowel();
 }
