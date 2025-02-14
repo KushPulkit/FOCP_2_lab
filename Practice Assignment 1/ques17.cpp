@@ -1,4 +1,4 @@
-/*Create a program to perform division without using the / operator, implementing both integer 
+/*Q17. Create a program to perform division without using the / operator, implementing both integer 
 and floating-point division manually.*/
 #include <iostream>
 #include <cmath> 
