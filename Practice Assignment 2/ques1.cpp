@@ -15,3 +15,21 @@ void butter(int n){
         t=t+1;
         cout<<endl;
     }
+
+    for(int i=n;i>=1;i--) {
+        for(int j=1;j<=i;j++){ //left stars
+            cout<<"*";
+        }
+        for(int j=1;j<=2*(n-i);j++){ //spaces
+            cout<<" ";
+        }
+        for(int j=1;j<=i;j++){ //right stars
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
+int main(){
+    int n; cout<<"Enter value of n: "; cin>>n;
+    butter(n);
+}
